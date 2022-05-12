@@ -1,0 +1,52 @@
+body {
+    background-color: #52796f;
+    color: #fbf8cc;
+}
+.mainHeader {
+    display: flex;
+    justify-content: center;
+    font-size: 10rem;
+    background-color: #84a98c;
+    color: #fbf8cc;
+    text-shadow: 2px 2px #ff7300;
+    border: 2px solid #ff7300;
+    border-style: dashed;
+}
+img {
+    display: flex;
+    float:right;
+    border-radius: 50%;
+    width: 1.4em;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.footer {
+    display: flex;
+    border: #ff7300;
+    border-style: dashed;
+    margin: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1em;
+    background-color: #84a98c;
+}
+
+.serviceLocations {
+    display: flex;
+    padding: 2em;
+}
+
+.parksAndGuests {
+    display: flex;
+}
+
+.parkAreasAndServices {
+    display: flex;
+    
+}
