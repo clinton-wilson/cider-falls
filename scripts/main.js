@@ -8,7 +8,7 @@ const applicationHTML = `
 <section class="serviceLocations">
     ${displayServiceLocations()}
 </section>
-<article class="parksAndGuests"
+<article class="parksAndGuests">
 <section class="parkAreasAndServices">    
     ${parkInfo()}
 </section>

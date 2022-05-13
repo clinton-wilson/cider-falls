@@ -22,7 +22,8 @@ img {
 #container{
     display: flex;
     flex-direction: column;
-    
+    justify-content: space-between;
+    text-shadow: 2px 2px #ff7300;
 }
 
 .footer {
@@ -39,14 +40,66 @@ img {
 
 .serviceLocations {
     display: flex;
-    padding: 2em;
-}
+    padding: 1em;
+    background-color: #84a98c;
+    margin: 1em;
+    border: #ff7300;
+    border-style: dashed;
+    text-align: center;
+    justify-content: space-evenly;}
 
+.serviceLocation {
+    display: flex;
+    
+}
 .parksAndGuests {
     display: flex;
+    text-align: center;
+    
+}
+
+.parkArea {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 33.333333%;
+    
+}
+
+.guests {
+    background-color: #84a98c;
+
+    text-align: center;
+    margin: 2em;
+    padding: 2em;
+    border: #ff7300;
+    border-style: dashed;
+    
+}
+
+.guest {
+    padding: 1em;
+    text-align: left;
+
+}
+
+
+ul { 
+    text-align:center; 
+    list-style-position:inside; 
+    text-shadow: none;
 }
 
 .parkAreasAndServices {
+    background-color: #84a98c;
     display: flex;
-    
+    border: #ff7300;
+    border-style: dashed;
+    flex-wrap: wrap;
+    margin: 1em;
+}
+
+
+.service {
+    font-size: larger;
+    text-align: center;
 }

@@ -7,8 +7,8 @@ const serviceLocations = getServiceLocations()
 export const displayServiceLocations = () => {
     let html = ""
     for (const service of services) {
-        html += `<section class="serviceLocations">`   
-        html += `<h2 id="serviceLocations--${service.id}">${service.name}</h2>`
+        html += `<section class="serviceLocation">`   
+        html += `<h2 id="serviceLocation--${service.id}">${service.name}</h2>`
         html += "</section>"
     }
     return html
@@ -30,7 +30,7 @@ document.addEventListener(
     "click",
         (clickEvent) => {
             const itemClicked = clickEvent.target
-            if (itemClicked.id.startsWith("serviceLocations")) {
+            if (itemClicked.id.startsWith("serviceLocation")) {
                 const [,serviceLocationsId] = itemClicked.id.split("--")
             
                 for (const service of services) {
